@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video QA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>YouTube Video QA</h1>
+    
+    <div class="input-section">
+        <input type="text" id="videoId" placeholder="Enter YouTube Video ID" />
+        <button onclick="getVideoInfo()">Get Video Info</button>
+    </div>
+    
+    <div id="videoInfo"></div>
+    
+    <h2>Ask a Question</h2>
+    <textarea id="question" placeholder="Enter your question"></textarea>
+    <button onclick="askQuestion()">Ask</button>
+    <div id="answer"></div>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
